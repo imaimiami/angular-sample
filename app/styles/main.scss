@@ -1,6 +1,6 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
 // endbower
 
 .browsehappy {
@@ -14,6 +14,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #eeeeee;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -83,7 +84,7 @@ body {
   transition: 1.2s ease-in-out all;
   opacity: 0;
 }
- 
+
 .item.ng-enter.item.ng-enter-active {
   opacity: 1;
 }
