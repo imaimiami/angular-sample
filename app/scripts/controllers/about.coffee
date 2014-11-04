@@ -29,5 +29,24 @@ angular.module('angularSampleApp')
       {i: 7}      
     ]
 
+    $scope.items2 = [
+      {i: 1}
+      {i: 2}
+      {i: 3}
+      {i: 4}
+      {i: 2}
+      {i: 3}
+      {i: 4}
+      {i: 5}
+      {i: 3}
+      {i: 4}
+      {i: 5}
+      {i: 6}
+      {i: 4}
+      {i: 5}
+      {i: 6}
+      {i: 7}      
+    ]
+
     $scope.addItem = ->
-      $scope.items = $scope.items.concat([{i:10}, {i:10}])
+      $scope.items2 = $scope.items2.concat([{i:10}, {i:10}])

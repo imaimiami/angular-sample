@@ -77,21 +77,22 @@ body {
   animation: anime1 0.4s ease 0s infinite alternate;
 }
 
-/*
+
 .item.ng-enter {
-  -webkit-transition: 0.4s ease-in-out all;
-  transition: 0.4s ease-in-out all;
-  transform: scale(0);
+  -webkit-transition: 1.2s ease-in-out all;
+  transition: 1.2s ease-in-out all;
+  opacity: 0;
 }
  
 .item.ng-enter.item.ng-enter-active {
-  transform: scale(1);
+  opacity: 1;
 }
-*/
 
+/*
 .item.ng-enter {
   animation: anime1 0.4s ease 0s;
 }
+*/
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
